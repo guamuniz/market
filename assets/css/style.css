@@ -1,0 +1,13 @@
+:root{--bg:#080a0d;--panel:#11151b;--panel2:#171d25;--line:#252d38;--muted:#9aa4b2;--silver:#9b9993;--green:#20c997;--red:#ff6577;--blue:#4ea1ff}
+*{box-sizing:border-box}body{background:var(--bg);color:#eef2f6;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+.navbar{background:rgba(8,10,13,.96);backdrop-filter:blur(10px)}.navbar-brand{letter-spacing:.08em}
+.text-muted,.text-secondary{color:var(--muted)!important}.panel,.metric-card{background:var(--panel);border:1px solid var(--line);border-radius:16px}
+.metric-card{padding:18px;height:100%}.metric-label{font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.metric-value{font-size:1.55rem;font-weight:700;margin-top:7px}.market-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px}
+.market-card:hover{border-color:#566273;transform:translateY(-1px);transition:.2s}
+.badge-soft{background:#202936;color:#cbd5e1;border:1px solid #303c4b}.positive{color:var(--green)!important}.negative{color:var(--red)!important}
+.form-control,.form-select{background:#0c1016;border-color:var(--line);color:#eef2f6}.form-control:focus,.form-select:focus{background:#0c1016;color:#fff;border-color:var(--blue);box-shadow:0 0 0 .2rem #4ea1ff22}
+.table{--bs-table-bg:transparent;--bs-table-color:#e7ebf0;--bs-table-border-color:var(--line);vertical-align:middle}
+.table thead th{color:var(--muted);font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.btn-primary{background:#2868c7;border-color:#2868c7}.section-title{font-weight:700;letter-spacing:-.02em}.small-muted{font-size:.8rem;color:var(--muted)}
+.chart-wrap{height:270px}.logo-small{height:28px}.admin-sidebar a{display:block;color:#c7d0dc;text-decoration:none;padding:10px 12px;border-radius:9px}.admin-sidebar a:hover,.admin-sidebar a.active{background:#202936;color:#fff}
