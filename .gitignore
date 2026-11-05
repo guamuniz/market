@@ -1,0 +1,28 @@
+# Configuração local e credenciais
+/includes/config.php
+/config.php
+.env
+.env.*
+!.env.example
+
+# Backups, dumps e arquivos locais
+*.sql.gz
+*.dump
+*.bak
+*.backup
+*.old
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Dependências e ferramentas locais
+/vendor/
+/node_modules/
+/.idea/
+/.vscode/
+
+# Arquivos temporários de hospedagem
+.cache/
+.tmp/
